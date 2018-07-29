@@ -9,3 +9,9 @@ In this task I have used next technologies:
 * Axios
 
 JSON file stored in my Firebase. Data of currency get from NBRB API.
+
+To run this project, execute next commands:
+1. git clone https://github.com/Janitor93/tickets-system.git
+2. go to this folder
+3. npm install
+4. npm start
