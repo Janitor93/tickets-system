@@ -1,0 +1,30 @@
+.home {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home button {
+    margin: 0 auto;
+}
+
+.home__logo {
+    width: 250px;
+    animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+            transform: rotate(0deg);
+    }
+    to {
+            transform: rotate(360deg);
+    }
+}
+
+@media(max-width: 700px) {
+    .home {
+        flex-direction: column-reverse;
+    }
+}

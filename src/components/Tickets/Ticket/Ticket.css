@@ -1,0 +1,91 @@
+.ticket {
+    width: 99%;
+    min-height: 250px;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.ticket__priceInfo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ticket__imgae {
+    max-width: 80%;
+    height: auto;
+}
+
+.ticket__vl {
+    border: 1px solid #f2f2f2;
+    margin: -10px 0;
+}
+
+.ticket__pathInfo {
+    width: 65%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ticket__pathInfo_time {
+    margin: 5px 0;
+    font-size: 1.7em;
+    font-weight: 100;
+    color: #595959;
+}
+
+.ticket__pathInfo_city {
+    color: #595959;
+}
+
+.ticket__pathInfo_date {
+    color: #ccc;
+}
+
+.ticket__pathInfo_transfers {
+    text-align: center;
+}
+
+.ticket__pathInfo_stops {
+    color: #ccc;
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+@media(max-width: 800px) {
+    .ticket {
+        width: 100%;
+    }
+}
+
+@media(max-width: 550px) {
+    .ticket {
+        flex-direction: column;
+    }
+
+    .ticket__priceInfo {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .ticket__imgae {
+        width: 50%;
+    }
+
+    .ticket__vl {
+        margin: 10px -10px;
+    }
+
+    .ticket__pathInfo {
+        flex-direction: column;
+    }
+}

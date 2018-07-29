@@ -1,0 +1,33 @@
+.navigationItem {
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+}
+
+.navigationItem__link {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.navigationItem__link:hover,
+.navigationItem__link:active, 
+.navigationItem__link.active {
+    background-color: #80bfff;
+}
+
+@media(max-width: 500px) {
+    .navigationItem {
+        width: 100%;
+    }
+    
+    .navigationItem__link {
+        justify-content: center;
+        padding: 10px 0;
+    }
+}

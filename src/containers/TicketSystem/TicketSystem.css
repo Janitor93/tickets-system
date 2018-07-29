@@ -1,0 +1,25 @@
+.ticketSystem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pushContent {
+    min-width: 250px;
+    max-width: 250px;
+    width: 250px;
+    height: 100%;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+@media(max-width: 800px) {
+    .ticketSystem {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pushContent {
+        display: none;
+    }
+}

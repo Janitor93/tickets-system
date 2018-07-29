@@ -1,0 +1,11 @@
+.closeButton {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.closeButton__image {
+    width: 30px;
+    height: 30px;
+}

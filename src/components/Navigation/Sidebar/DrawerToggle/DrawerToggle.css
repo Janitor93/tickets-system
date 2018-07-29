@@ -1,0 +1,20 @@
+.drawerToggle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.drawerToggle__line {
+    width: 90%;
+    height: 3px;
+    background-color: #fff;
+}
+
+@media(min-width: 500px) {
+    .drawerToggle {
+        display: none;
+    }
+}

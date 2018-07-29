@@ -1,0 +1,22 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    background-color: #0066cc;
+    transition: transform 0.5s ease-out;
+    z-index: 10;
+}
+
+.open {
+    transform: translateX(0);
+}
+
+.close {
+    transform: translateX(-100%);
+}
+
+@media(min-width: 500px) {
+    .sidebar {
+        display: none;
+    }
+}

@@ -1,0 +1,47 @@
+.labels {
+    display: flex;
+    flex-direction: column;
+}
+
+.labels label {
+    margin-bottom: 15px;
+}
+
+.labels input {
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #595959;
+}
+
+.labels input:focus {
+    outline: none;
+    border: 1px solid #3399ff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons__button_succes {
+    border: 1px solid #3399ff;
+    background-color: #fff;
+    color: #3399ff;
+    height: 40px;
+    width: 25%;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.buttons__button_danger {
+    border: 1px solid #f77b7b;
+    background-color: #fff;
+    color: #f77b7b;
+    height: 40px;
+    width: 25%;
+    cursor: pointer;
+    margin: 5px;
+}

@@ -1,0 +1,12 @@
+.logo {
+    height: 50px;
+    cursor: pointer;
+}
+
+.log__image {
+    height: 100%;
+    width: auto;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+}

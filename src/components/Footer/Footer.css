@@ -1,0 +1,23 @@
+.footer {
+    height: 70px;
+    background-color: #3399ff;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.footer__wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer__link,
+.footer__link:active,
+.footer__link:visited {
+    color: #fff;
+    text-decoration: none;
+}

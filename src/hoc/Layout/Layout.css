@@ -1,0 +1,49 @@
+.content {
+    margin: 80px auto 0 auto;
+    max-width: 1000px;
+    flex: 1 0 auto;
+}
+
+.error {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    min-height: 150px;
+    max-width: 300px;
+    border: 1px solid #3399ff;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #3399ff;
+    font-weight: 300;
+    z-index: 20;
+}
+
+.error__paragraph {
+    padding: 10px;
+}
+
+.show {
+    animation: show 10s ease-in;
+}
+
+.error__heading {
+    margin: 0;
+    padding: 10px;
+    background-color: #3399ff;
+    color: #fff; 
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
