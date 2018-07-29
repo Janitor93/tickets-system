@@ -1,4 +1,4 @@
-# Ticket System. Using ReactJS
+# Ticket System. ReactJS
 
 This is the test task from aviasales: https://github.com/KosyanMedia/test-tasks/tree/master/aviasales
 
